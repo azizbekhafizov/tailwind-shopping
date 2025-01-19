@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/logo-img.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/output.css">
+    <title>Tailwind css</title>
+</head>
+<body class="bg-[#0D0D0D] uppercase">
+    <header class="">
+        <nav class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1340px] mx-auto px-5 h-[60px] my-2  bg-[#CCCCCC] flex justify-between items-center rounded-lg">
+            <ul class="flex items-center space-x-8 font-medium">
+                <li class="bg-[#0D0D0D] px-2 rounded-lg py-2"><a href=""><img src="./assets/images/header-logo.png" alt=""></a></li>
+                <li class="r-header-link header-link-hover"><a href="#">Men</a></li>
+                <li class="r-header-link header-link-hover"><a href="#">Women</a></li>
+                <li class="r-header-link header-link-hover"><a href="#">Sale</a></li>
+                <li class="r-header-link header-link-hover"><a href="#">Children</a></li>
+                <li class="r-header-link header-link-hover"><a href="#">Collection</a></li>
+            </ul>
+            <ul class="flex items-center space-x-8 font-medium">
+                <li class="r-header-link  "><a href="#">English <i class="fa-solid fa-chevron-down transition duration-500 group-hover:-rotate-90"></i></a></li>
+                <li class="r-header-link "><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                <li class="r-header-link  "><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                <li class="r-header-link "><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li class="sm360:block xs:block sm:block text-[25px] lg:hidden header-link-hover"><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="home">
+            <div class="r-container px-5  bg-[#CCCCCC] pt-5  my-10 flex justify-between xs:flex-col sm:flex-row items-center rounded-2xl">
+                <div class="sm360:w-[100%] md:w-[50%]">
+                    <h1 class="sm360:w-[100%] sm360:text-center sm360:mx-auto sm360:text-xl  sm:text-3xl  md:w-[100%]  md:text-5xl md:text-start md:mx-0 text-7xl font-roboto font-bold">Chikago Wears For men</h1>
+                    <div class="sm360:py-[3px] sm360:w-[150px] sm360:mx-auto sm360:mt-2   sm:w-[180px] sm:py-[5px]    md:mx-0    lg:py-[7px] lg:mt-5 rounded-[110px]  font-medium bg-[#E2AC8B] flex justify-center items-center gap-2 cursor-pointer transition duration-300 hover:bg-[#ff924f] w-[300px] h-[60px] border-2 border-black">
+                        <a href="#" class="sm360:text-[13px] sm:text-[15px] md:text-[16px] ">view now all</a>
+                        <img class="sm360:w-[15px] sm:w-[17px]"  src="./assets/icons/right-arrow.png" alt="">
+                    </div>
+                </div>
+                <div class="sm360:hidden md:inline-block md:w-[40%]">
+                    <img class="xs:w-[350px] " src="./assets/images/home-img.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="all-menu">
+            <div class="r-container mb-20">
+                <div class="flex items-center justify-between ">
+                </div>
+                <div class="flex sm360:flex-col sm360:gap-2 sm360:items-center xs:flex-col xs:gap-[10px] sm:items-center justify-center pt-4 md:flex-row">
+                    <div class="sm360:w-[100%] xs:w-[440px] md:w-[563px] space-y-2">
+                        <div class="sm360:p-[25px] sm360:pb-[70px]  bg-[#CCCCCC] p-[45px] md:h-[200px] rounded-[20px] relative overflow-hidden"  data-aos="fade-up">
+                            <div class="card-name">
+                                <h1 class="sm360:text-[36px] font-medium">Caps</h1>
+                                <div class="sm360:w-[120px] sm360:py-2 sm360:mt-2  rounded-3xl  font-medium bg-[#F7926E] flex justify-center items-center gap-2 cursor-pointer transition duration-300 hover:text-white">
+                                    <a href="#" class="sm360:text-[16px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <img class="absolute sm360:w-[220px] sm360:top-[70px] sm360:right-[10px]  xs:w-[260px] xs:top-[40px] xs:right-[30px]  md:w-[260px] md:top-[45px] md:right-[20px]  lg:w-[300px] lg:top-[20px] lg:right-[25px]   xl:w-[300px] xl:top-[20px] xl:right-[90px]" src="./assets/images/caps2.jpg" alt="">
+                        </div>
+
+                        <div class="sm360:p-[25px] sm360:pb-[150px]  xs:pb-[230px] bg-[#CCCCCC] p-[30px] xs:h-[230px] md:h-[300px] rounded-[20px] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                            <div class="card-name">
+                                <h1 class="sm360:text-[36px] font-medium">Jackets</h1>
+                                <div class="sm360:w-[120px] sm360:py-2 sm360:mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 cursor-pointer transition duration-300 hover:bg-[#eea813]">
+                                    <a href="#" class="sm360:text-[16px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <img class="absolute sm360:w-[160px] sm360:top-[70px] sm360:right-[15px]  xs:w-[180px] xs:top-[25px] xs:right-[50px]  md:w-[190px] md:top-[60px] md:right-[20px]  lg:w-[220px] lg:top-[20px] lg:right-[30px]   xl:w-[220px] xl:top-[20px] xl:right-[90px]" src="./assets/images/jackets.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="sm360:w-[100%] xs:w-[440px] md:w-[563px] space-y-2">
+                        <div class="sm360:p-[25px] sm360:pb-[150px]  xs:pb-[230px] bg-[#CCCCCC] p-[30px] xs:h-[230px] md:h-[300px] rounded-[20px] relative overflow-hidden" data-aos="fade-up">
+                            <div class="card-name">
+                                <h1 class="sm360:text-[36px] font-medium">Treousers</h1>
+                                <div class="sm360:w-[120px] sm360:py-2 sm360:mt-2 rounded-3xl  font-medium bg-[#93B5E3] flex justify-center items-center gap-2 cursor-pointer transition duration-300 hover:bg-[#458eee]">
+                                    <a href="#" class="sm360:text-[16px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <img class="absolute sm360:w-[110px] sm360:top-[80px] sm360:right-[50px]  xs:w-[130px] xs:top-[20px] xs:right-[70px]  md:w-[130px] md:top-[70px] md:right-[50px]  lg:w-[150px] lg:top-[30px] lg:right-[50px]   xl:w-[160px] xl:top-[20px] xl:right-[100px]" src="./assets/images/trousers.png" alt="">
+                        </div>
+                        <div class="sm360:p-[25px] sm360:pb-[70px] bg-[#CCCCCC] p-[30px] md:h-[200px] rounded-[20px] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                            <div class="card-name">
+                                <h1 class="sm360:text-[36px] font-medium">Sneakers</h1>
+                                <div class="sm360:w-[120px] sm360:py-2 sm360:mt-2 rounded-3xl  font-medium bg-[#B85BF0] flex justify-center items-center gap-2 cursor-pointer transition duration-300 hover:bg-[#a024ed]">
+                                    <a href="#" class="sm360:text-[16px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
+                                </div>
+                            </div>
+                            <img class="absolute sm360:w-[130px] sm360:top-[60px] sm360:right-[30px]  xs:w-[160px] xs:top-[30px] xs:right-[50px]  md:w-[150px] md:top-[50px] md:right-[40px]  lg:w-[170px] lg:top-[30px] lg:right-[50px]   xl:w-[190px] xl:top-[15px] xl:right-[100px]" src="./assets/images/snakers.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="r-container mb-20">
+                <div class=" flex items-center justify-between ">
+                </div>
+                <div class="grid sm360:grid-cols-1 sm360:gap-3  xs:grid-cols-2  sm:grid-cols-3 sm:gap-2  lg:grid-cols-4 lg:gap-3  pt-5">
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative  overflow-hidden" data-aos="fade-up">
+                        <h3 class="card-status bg-red-500 font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#FF0000] font-medium">564 000 uzs</h3>
+                            <p class="true-price text-[14px] text-[#666666] line-through">664 000 uzs</p>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <h3 class="card-status bg-[#265AD9] font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                        <h3 class="card-status bg-red-500 font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt=""> 
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#FF0000] font-medium">564 000 uzs</h3>
+                            <p class="true-price text-[14px] text-[#666666] line-through">664 000 uzs</p>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                        <h3 class="card-status bg-[#265AD9] font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">new</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up" data-aos-delay="50">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/card-6-img.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new-products">
+            <div class="r-container mb-16">
+                <div class=" flex items-center justify-between ">
+                </div>
+                <div class="flex sm360:flex-col sm360:items-center sm360:gap-5  lg:flex-row lg:items-start pt-5">
+                    <div class="sm360:w-[100%] sm360:text-center lg:text-start" data-aos="fade-up">
+                        <h1 class="sm360:text-[32px] font-[500] text-[#FAFAFA]">selection by brands</h1>
+                        <div class="sm360:w-[140px] sm360:py-2 sm360:mt-4 sm360:mx-auto lg:mx-0  rounded-3xl font-medium bg-[#F1C25F] flex justify-center items-center gap-2  cursor-pointer transition duration-300 hover:bg-[#eea813]">
+                            <a href="#" class="btn ">By brand</a>
+                            <img src="./assets/icons/right-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="flex sm360:flex-col sm360:gap-2  md:flex-row" data-aos="fade-up">
+                        <div class="grid sm360:grid-cols-[100px_100px_100px] sm360:grid-rows-[100px_100px_100px] sm360:gap-2
+                                         xs:grid-cols-[120px_120px_120px] xs:grid-rows-[120px_120px_120px]
+                                         sm:grid-cols-[140px_140px_140px] sm:grid-rows-[140px_140px_140px]
+                                         md:grid-cols-[100px_100px_100px] md:grid-rows-[100px_100px_100px]">
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-50" src="./assets/images/brand-1.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-2.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.36]" src="./assets/images/brand-5.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2 row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-100" src="./assets/images/brand-6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid sm360:grid-cols-[100px_100px_100px] sm360:grid-rows-[100px_100px_100px] sm360:gap-2
+                                         xs:grid-cols-[120px_120px_120px] xs:grid-rows-[120px_120px_120px]
+                                         sm:grid-cols-[140px_140px_140px] sm:grid-rows-[140px_140px_140px]
+                                         md:grid-cols-[100px_100px_100px] md:grid-rows-[100px_100px_100px]">
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2 row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.65]" src="./assets/images/brand-3-1.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xs:scale-[0.25] scale-75" src="./assets/images/brand-4.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-7.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75" src="./assets/images/brand-8.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="r-container mb-20">
+                <div class="title-box flex items-center justify-between ">
+                </div>
+                <div class="products-cards grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-4">
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative  overflow-hidden" data-aos="fade-up">
+                        <h3 class="card-status bg-red-500 font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/sweater.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#FF0000] font-medium">564 000 uzs</h3>
+                            <p class="true-price text-[14px] text-[#666666] line-through">664 000 uzs</p>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/sweater.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <h3 class="card-status bg-[#265AD9] font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/sweater.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                    <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden" data-aos="fade-up">
+                        <i class="fa-regular fa-heart absolute right-5 cursor-pointer transition duration-300 hover:text-red-500"></i>
+                        <img class="scale-75" src="./assets/images/sweater.jpg" alt="">
+                        <h4 class="card-title w-[60%] normal-case font-medium text-[#0D0D0D]">Bape hoodie jordan air retro</h4>
+                        <div class="card-prices flex items-end gap-2">
+                            <h3 class="discount-price text-[16px] text-[#333333] font-medium">564 000 uzs</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="zoodpay pb-3">
+            <div class="r-container rounded-[20px] sm360:px-6 md:px-10 pt-[40px] sm360:pb-10 md:pb-[90px] bg-[#6EAEE3] relative overflow-hidden"> 
+                <div class="logo-box flex items-center gap-1" data-aos="fade-up">
+                    <img class="w-[48px]" src="./assets/images/zood-logo.png" alt="">
+                    <h2 class="text-[40px] text-white font-medium">ood pay</h2>
+                </div>
+                <div class="title" data-aos="fade-up">
+                    <div class="title-top flex items-center gap-2">
+                        <h1 class="sm360:text-[32px] md:text-[64px] font-medium leading-none">Bilan</h1>
+                        <div class="discount bg-[#F91B1B] sm360:px-3 sm360:py-1 md:px-7 md:py-2 flex items-center gap-5 rounded-[30px]">
+                            <p class="sm360:text-[16px] md:text-[20px] text-white">20%</p>
+                            <img class="" src="./assets/icons/right-arrow-white.png" alt="">
+                        </div>
+                    </div>
+                    <h1 class="sm360:text-[32px] md:text-[64px] font-medium leading-none">chegirma</h1>
+                </div>
+                <img class="absolute sm360:hidden xs:hidden md:inline-block w-[250px] top-[20px] md:right-[40px] lg:right-[100px] xl:right-[200px]" src="./assets/images/sneakers-hand.jpg" alt="" data-aos="fade-up">
+            </div>
+        </section>
+        <div class="r-container rounded-[20px] bg-[#262626] text-white px-10 pt-8 pb-16 mb-8 flex xs:items-start lg:items-end sm360:flex-col sm360:items-start sm360:gap-10 xs:flex-col sm:flex-col lg:flex-row xs:gap-8 gap-28 items-end" >
+            <div class="normal-case  opacity-80">
+                <p class="pb-7 xs:text-start text-[#F1C05B]">All of Nothing</p>
+                <div class="first-line flex sm360:flex-col sm360:gap-2 xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14 my-5">
+                    <p>+ 94 099 4001</p>
+                    <p>Biz haqimizda</p>
+                    <a class="bg-[#808080] px-3 py-1 rounded-[7px] sm360:mx-0 xs:mx-0 mx-[55px] text-black" href="#" ><i class="fa-regular fa-envelope"></i> allornothing.uz@gmail.com</a>
+                </div>
+                <div class="second-line flex sm360:flex-col sm360:gap-2 xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14">
+                    <p>+ 94 099 4001</p>
+                    <p>Ish vaqti 11:00 - 23:00</p>
+                    <a class="bg-[#808080] px-3 py-1 rounded-[7px] text-black" href="#"><i class="fa-solid fa-location-dot"></i> T.sh Moirobod tuman. Fidokor 10. 4a uy </a>
+                </div>
+            </div>
+            <div class="footer-links flex gap-3">
+                <div class="footer-item cursor-pointer w-[40px] h-[40px] bg-[#0D0D0D] rounded-[50%] flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-[20px] opacity-60 cursor-pointer transition duration-300 hover:text-[#F1C05B]"></i>
+                </div>
+                <div class="footer-item cursor-pointer w-[40px] h-[40px] bg-[#0D0D0D] rounded-[50%] flex items-center justify-center">
+                    <i class="fa-brands fa-facebook-f text-[20px] opacity-60 cursor-pointer transition duration-300 hover:text-[#F1C05B]"></i>
+                </div>
+                <div class="footer-item cursor-pointer w-[40px] h-[40px] bg-[#0D0D0D] rounded-[50%] flex items-center justify-center">
+                    <i class="fa-brands fa-telegram text-[20px] opacity-60 cursor-pointer transition duration-300 hover:text-[#F1C05B]"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

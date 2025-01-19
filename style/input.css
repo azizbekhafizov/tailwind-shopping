@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .r-header-link {
+        @apply sm360:hidden xs:hidden sm:hidden lg:inline-block;
+    }
+    .header-link-hover {
+        @apply transition duration-300 hover:text-green-400
+    }
+
+    .r-container {
+        @apply sm360:w-[320px] sm360:py-3 sm:py-5 xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1340px] mx-auto;
+    }
+
+}
